@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>Prueba Credito Fassil</name>
+
+<description>
+Prueba Credito Fassil
+</description>
+
+<author href="http://orangegroup.com.bo" email="info@orangegroup.com.bo">
+Orange Group
+</author>
+  <preference name="fullscreen" value="true" />
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<preference name="permissions" value="true"/>
+	<access origin="*" subdomains="true" />
+
+</widget>
